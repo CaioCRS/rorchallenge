@@ -1,0 +1,21 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  tipo: 1
+  data: 2021-02-11
+  valor: 9.99
+  cpf: 1
+  cartao: MyString
+  hora: 2021-02-11 17:50:19
+  nome_proprietario: MyString
+  nome_loja: MyString
+
+two:
+  tipo: 1
+  data: 2021-02-11
+  valor: 9.99
+  cpf: 1
+  cartao: MyString
+  hora: 2021-02-11 17:50:19
+  nome_proprietario: MyString
+  nome_loja: MyString
