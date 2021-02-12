@@ -45,3 +45,4 @@ gem 'tzinfo-data', platforms: %i[mingw mswin x64_mingw jruby]
 group :development do
   gem 'rubocop', require: false
 end
+gem 'rspec-rails', '~> 4.0.0'
