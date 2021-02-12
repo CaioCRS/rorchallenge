@@ -10,18 +10,17 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2021_02_11_234220) do
+ActiveRecord::Schema.define(version: 2021_02_12_172128) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
 
   create_table "cnabs", force: :cascade do |t|
     t.integer "tipo"
-    t.date "data"
+    t.datetime "data"
     t.decimal "valor"
-    t.integer "cpf"
+    t.bigint "cpf"
     t.string "cartao"
-    t.time "hora"
     t.string "nome_proprietario"
     t.string "nome_loja"
     t.datetime "created_at", precision: 6, null: false

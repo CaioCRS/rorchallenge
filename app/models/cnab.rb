@@ -4,7 +4,6 @@ class Cnab < ApplicationRecord
     validates :valor, presence: true
     validates :cpf, presence: true
     validates :cartao, presence: true
-    validates :hora, presence: true
     validates :nome_proprietario, presence: true
     validates :nome_loja, presence: true
 end
